@@ -26,7 +26,7 @@ def main():
     
     nums_ordenados = bubble_sort(nums)
     
-    tempo = round((time.time() - inicio) * 1000, 2)
+    tempo = round((time.time() - inicio) * 1024, 2)
     memoria = tracemalloc.get_traced_memory()[1]
     tracemalloc.stop()
     
