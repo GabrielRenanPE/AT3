@@ -33,8 +33,6 @@ def main():
     with open("arq-saida-python.txt", "w") as f:
         f.writelines(f"{n}\n" for n in nums_ordenados)
     
-    print(f"""Tempo de execução: {tempo} ms
-Memória utilizada: {memoria} KB
-Arquivo de saída 'arq-saida-python.txt' gerado com sucesso.""")
+    print(f"""Tempo de execução: {tempo} ms;\nMemória utilizada: {memoria} KB;\nArquivo de saída 'arq-saida-python.txt' gerado com sucesso;\nInformacoes do PC: Intel i5-13, RAM 16GB DDR5, RTX 4050, SSD M2.""")
 
 main()
