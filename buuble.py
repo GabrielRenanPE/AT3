@@ -26,11 +26,11 @@ def main():
     
     nums_ordenados = bubble_sort(nums)
     
-    tempo = round((time.time() - inicio) * 1024, 2)
+    tempo = round((time.time() - inicio) * 1000, 2)
     memoria = tracemalloc.get_traced_memory()[1]
     tracemalloc.stop()
     
-    with open("arq-saida-python.txt", "w") as f:
+    with open("arq-saida-python-bubble.txt", "w") as f:
         f.writelines(f"{n}\n" for n in nums_ordenados)
     
     print(f"""Tempo de execução: {tempo} ms;\nMemória utilizada: {memoria} KB;\nArquivo de saída 'arq-saida-python.txt' gerado com sucesso;\nInformacoes do PC: Intel i5-13, RAM 16GB DDR5, RTX 4050, SSD M2.""")

@@ -61,11 +61,11 @@ public class OrdenacaoRapida {
             }
         }
 
-        escreverNumeros(arr, "arq-saida-java.txt");
+        escreverNumeros(arr, "arq-saida-java-OR.txt");
 
         System.out.println("Tempo de execução: " + tempo + " ms");
         System.out.println("Memória utilizada: " + memoriaKB + " KB");
         System.out.println("Informacoes do PC: Intel i5-13, RAM 16GB DDR5, RTX 4050, SSD M2");
-        System.out.println("Arquivo de saída 'arq-saida-java.txt' gerado com sucesso.");
+        System.out.println("Arquivo de saída 'arq-saida-java-OR.txt' gerado com sucesso.");
     }
 }
